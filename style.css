@@ -24,7 +24,7 @@ nav img {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 20px 5%;
 }
 
 nav ul {
@@ -40,8 +40,8 @@ nav ul a {
 }
 
 nav button {
-  padding: 5px 40px;
-  font-size: 20px;
+  width: 8%;
+  font-size: 18px;
 }
 
 /* Header hero section */
@@ -79,32 +79,21 @@ nav button {
   text-align: center;
 }
 
-.hero .hero-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero .hero-button button {
-  height: 50px;
-  width: 180px;
-  border: none;
-  border-radius: 9px;
-  font-size: 20px;
-  font-weight: 600;
+.hero button {
+  height: 6%;
+  width: 10%;
+  font-size: 23px;
 }
 
 /* Meet the speakers section style */
 .meet-speakers {
-  width: 90%;
-  max-width: 1600px;
-  margin: auto;
+  padding: 0 9%;
 }
 
 .meet-speakers .meet-speakers-heading {
   display: flex;
   justify-content: center;
-  padding: 70px 0;
+  padding: 3%;
   font-size: 25px;
 }
 
