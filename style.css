@@ -1,0 +1,86 @@
+/* Universal */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Common */
+.common-button {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Header nav bar style */
+
+nav img {
+  width: auto;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-size: 19px;
+}
+
+nav button {
+  padding: 5px 50px;
+  font-size: 20px;
+}
+
+/* Header hero section */
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/banner.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+  gap: 30px;
+}
+
+.hero-content h1 {
+  font-size: 85px;
+}
+
+.hero-content p {
+  max-width: 800px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.hero .hero-button {
+  text-align: center;
+  padding: 190px 0;
+}
+
+.hero .hero-button button {
+  padding: 20px 60px;
+  font-size: 23px;
+}
