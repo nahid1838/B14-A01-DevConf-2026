@@ -40,7 +40,7 @@ nav ul a {
 }
 
 nav button {
-  padding: 5px 50px;
+  padding: 5px 40px;
   font-size: 20px;
 }
 
@@ -58,15 +58,15 @@ nav button {
 
 .hero-content {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   padding: 150px 0;
   gap: 30px;
 }
 
 .hero-content h1 {
-  font-size: 85px;
+  font-size: 80px;
 }
 
 .hero-content p {
@@ -75,21 +75,31 @@ nav button {
   text-align: center;
 }
 
-.hero .hero-button {
-  text-align: center;
-  padding: 190px 0;
+.hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero .hero-button button {
-  padding: 20px 60px;
-  font-size: 23px;
+.hero-button button {
+  height: 50px;
+  width: 180px;
+  border: none;
+  border-radius: 9px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 170px;
 }
 
 /* Meet the speakers section style */
+.meet-speakers {
+  padding: 0 150px;
+}
+
 .meet-speakers-heading {
   display: flex;
   justify-content: center;
-  padding: 60px 0;
+  padding: 70px 0;
   font-size: 25px;
 }
 
@@ -99,7 +109,6 @@ nav button {
   text-align: left;
   justify-content: center;
   gap: 30px;
-  padding: 0 190px;
 }
 
 .meet-speakers-info img {
