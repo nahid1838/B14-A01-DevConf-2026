@@ -84,3 +84,42 @@ nav button {
   padding: 20px 60px;
   font-size: 23px;
 }
+
+/* Meet the speakers section style */
+.meet-speakers-heading {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+  font-size: 25px;
+}
+
+.meet-speakers-info {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  text-align: left;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 190px;
+}
+
+.meet-speakers-info img {
+  height: auto;
+  width: 880px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.meet-speakers-card {
+  border: 1px solid #d4d0d0;
+  border-radius: 15px;
+  padding-bottom: 17px;
+}
+
+.meet-speakers-card h3,
+.meet-speakers-card p {
+  padding: 6px 30px;
+}
+
+.meet-speakers-card h3 {
+  font-size: 26px;
+}
