@@ -92,6 +92,7 @@
 }
 
 .hero-content p {
+  max-width: 700px;
   font-size: 23px;
   text-align: center;
 }
