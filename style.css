@@ -44,7 +44,7 @@
   justify-content: space-between;
   padding: 20px 5%;
 }
-ul {
+.nav-container ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,8 +58,8 @@ ul {
 }
 
 .nav-container button {
-  height: 30px;
-  width: auto;
+  padding: 12px 5%;
+  font-size: 15px;
 }
 
 /* Header hero section */
@@ -191,7 +191,6 @@ ul {
 
 .common-box p,
 h1,
-ul,
 button {
   display: flex;
   flex-direction: column;
