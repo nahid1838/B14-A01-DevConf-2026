@@ -34,18 +34,17 @@
 
 /* Header nav bar style */
 
-nav img {
+.nav-container img {
   width: auto;
   height: 60px;
 }
 
-nav {
+.nav-container {
   display: flex;
   justify-content: space-between;
   padding: 20px 5%;
 }
-
-nav ul {
+ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,14 +52,14 @@ nav ul {
   list-style: none;
 }
 
-nav ul a {
+.nav-container ul a {
   text-decoration: none;
   font-size: 19px;
 }
 
-nav button {
-  padding: 10px 3%;
-  font-size: 18px;
+.nav-container button {
+  height: 30px;
+  width: auto;
 }
 
 /* Header hero section */
@@ -293,4 +292,43 @@ button {
 
 .job-card button:hover {
   background: #1d4ed8;
+}
+
+/* Footer section style */
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 55px 25%;
+  background-color: #0d1b2a;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 40px;
+}
+
+.footer-socials a {
+  color: #666;
+  font-size: 40px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer-line {
+  border: 0;
+  border-top: 1px solid #eaeaea;
+  margin: 20px 0;
+}
+
+.content {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  margin: 0;
 }
