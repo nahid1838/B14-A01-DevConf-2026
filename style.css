@@ -9,7 +9,25 @@
   background-color: #1d4ed8;
   color: white;
   border: none;
-  border-radius: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.common-button-2 {
+  border: none;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: blue;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.common-button-3 {
+  border: none;
+  border-radius: 10px;
+  border: 1px solid black;
   font-weight: bold;
   cursor: pointer;
 }
@@ -40,7 +58,7 @@ nav ul a {
 }
 
 nav button {
-  width: 8%;
+  padding: 10px 3%;
   font-size: 18px;
 }
 
@@ -70,24 +88,23 @@ nav button {
 }
 
 .hero-content h1 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .hero-content p {
-  max-width: 800px;
-  font-size: 25px;
+  max-width: 700px;
+  font-size: 23px;
   text-align: center;
 }
 
 .hero button {
-  height: 6%;
-  width: 10%;
+  padding: 15px 6%;
   font-size: 23px;
 }
 
 /* Meet the speakers section style */
 .meet-speakers {
-  padding: 0 9%;
+  padding: 0 12%;
 }
 
 .meet-speakers .meet-speakers-heading {
@@ -124,4 +141,65 @@ nav button {
 
 .meet-speakers-card h3 {
   font-size: 26px;
+}
+
+/* Secure your spot section style */
+.secure-parent {
+  margin-top: 8%;
+}
+
+.secure-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secure-heading h1 {
+  font-size: 50px;
+}
+
+.secure-box {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  padding: 3% 0;
+}
+
+.common-box {
+  border: 1px solid #d4d0d0;
+  list-style-position: inside;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  width: 300px;
+  gap: 20px;
+}
+
+.box-common-button {
+  margin-bottom: 0 10px;
+  padding: 10px 5%;
+  font-size: 15px;
+}
+
+.common-box hr {
+  margin: 20px 0;
+}
+
+.common-box p,
+h1,
+ul,
+button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px;
+}
+
+.box-two {
+  background-color: black;
+  color: rgb(228, 228, 228);
 }
